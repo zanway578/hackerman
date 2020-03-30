@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- Levels are described in nested fashion, where child's position and location is relative to parent -->
+<levels>
+    <level-1.1>
+        <name>Level 1.1</name>
+        <img>default</img>
+        <description>
+        The network is closed off except this node.
+Defeat the security software to proceed.
+Maybe more nodes exist behind this one...
+        </description>
+        <dependency>none</dependency>
+        <x>200</x>
+        <y>200</y>
+        <type>level</type>
+        <file_name>level-1-1.xml</file_name>
+    </level-1.1>
+
+    <warez-1>
+        <name>Ashley's Warez Node</name>
+        <img>warez</img>
+        <description>
+            This shop is a warez node - a spot where you can pay to download
+better programs. This spot likely specializes in cheaper software
+since it's in such a low security section. Still probably better
+than what I have now...
+        </description>
+        <dependency>Level 1.2</dependency>
+        <x>800</x>
+        <y>400</y>
+        <type>warez</type>
+        <file-name>warez-1.xml</file-name>
+    </warez-1>
+
+    <level-1.2>
+        <name>Level 1.2</name>
+        <img>default</img>
+        <description>Easy peasy.</description>
+        <dependency>Level 1.1</dependency>
+        <x>400</x>
+        <y>600</y>
+        <type>level</type>
+        <file-name>level-1-2.xml</file-name>
+    </level-1.2>
+
+    <level-1.3>
+        <name>1.3</name>
+        <img>default</img>
+        <description>Easy peasy.</description>
+        <dependency>Level 1.2</dependency>
+        <x>700</x>
+        <y>800</y>
+        <type>level</type>
+        <file-name>level-1-3.xml</file-name>
+    </level-1.3>
+
+    <level-1.4>
+        <name>1.4</name>
+        <img>default</img>
+        <description>Easy peasy.</description>
+        <dependency>1.3</dependency>
+        <x>1200</x>
+        <y>800</y>
+        <type>level</type>
+        <file-name>level-1-4.xml</file-name>
+    </level-1.4>
+
+    <level-1.5>
+        <name>1.5</name>
+        <img>default</img>
+        <description>Easy peasy.</description>
+        <dependency>1.4</dependency>
+        <x>1600</x>
+        <y>500</y>
+        <type>level</type>
+        <file-name>level-1-5.xml</file-name>
+    </level-1.5>
+
+    <!-- Section 2 -->
+
+<!--    <level-2.1>-->
+<!--        <name>2.1</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>1.5</dependency>-->
+<!--        <x>2100</x>-->
+<!--        <y>600</y>-->
+<!--    </level-2.1>-->
+<!--    <level-2.a>-->
+<!--        <name>2.a</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.1</dependency>-->
+<!--        <x>1700</x>-->
+<!--        <y>300</y>-->
+<!--    </level-2.a>-->
+<!--    <level-2.2>-->
+<!--        <name>2.2</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.1</dependency>-->
+<!--        <x>2100</x>-->
+<!--        <y>1000</y>-->
+<!--    </level-2.2>-->
+<!--    <level-2.b>-->
+<!--        <name>2.b</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.2</dependency>-->
+<!--        <x>1600</x>-->
+<!--        <y>1100</y>-->
+<!--    </level-2.b>-->
+<!--    <level-2.c>-->
+<!--        <name>2.c</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.2</dependency>-->
+<!--        <x>1600</x>-->
+<!--        <y>800</y>-->
+<!--    </level-2.c>-->
+<!--    <warez-2>-->
+<!--        <name>warez-2</name>-->
+<!--        <img>warez</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.2</dependency>-->
+<!--        <x>2500</x>-->
+<!--        <y>800</y>-->
+<!--    </warez-2>-->
+<!--    <level-2.3>-->
+<!--        <name>2.3</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.2</dependency>-->
+<!--        <x>2100</x>-->
+<!--        <y>1300</y>-->
+<!--    </level-2.3>-->
+<!--    <level-2.4>-->
+<!--        <name>2.4</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.3</dependency>-->
+<!--        <x>2400</x>-->
+<!--        <y>1100</y>-->
+<!--    </level-2.4>-->
+<!--    <level-2.5>-->
+<!--        <name>2.5</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.4</dependency>-->
+<!--        <x>2700</x>-->
+<!--        <y>1200</y>-->
+<!--    </level-2.5>-->
+
+<!--    &lt;!&ndash; Section 3 &ndash;&gt;-->
+<!--    <level-3.1>-->
+<!--        <name>3.1</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>2.5</dependency>-->
+<!--        <x>2500</x>-->
+<!--        <y>1700</y>-->
+<!--    </level-3.1>-->
+<!--    <level-3.a>-->
+<!--        <name>3.a</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.1</dependency>-->
+<!--        <x>2800</x>-->
+<!--        <y>1900</y>-->
+<!--    </level-3.a>-->
+<!--    <level-3.b>-->
+<!--        <name>3.b</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.1</dependency>-->
+<!--        <x>2800</x>-->
+<!--        <y>1700</y>-->
+<!--    </level-3.b>-->
+<!--    <level-3.c>-->
+<!--        <name>3.c</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.1</dependency>-->
+<!--        <x>2800</x>-->
+<!--        <y>1500</y>-->
+<!--    </level-3.c>-->
+<!--    <level-3.2>-->
+<!--        <name>3.2</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.1</dependency>-->
+<!--        <x>2200</x>-->
+<!--        <y>1600</y>-->
+<!--    </level-3.2>-->
+<!--    <level-3.3>-->
+<!--        <name>3.3</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.2</dependency>-->
+<!--        <x>1600</x>-->
+<!--        <y>1400</y>-->
+<!--    </level-3.3>-->
+<!--    <level-3.d>-->
+<!--        <name>3.d</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.3</dependency>-->
+<!--        <x>1400</x>-->
+<!--        <y>1650</y>-->
+<!--    </level-3.d>-->
+<!--    <level-3.e>-->
+<!--        <name>3.e</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.3</dependency>-->
+<!--        <x>1800</x>-->
+<!--        <y>1650</y>-->
+<!--    </level-3.e>-->
+<!--    <warez-3.1>-->
+<!--        <name>warez-3.1</name>-->
+<!--        <img>warez</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.d</dependency>-->
+<!--        <x>1400</x>-->
+<!--        <y>1850</y>-->
+<!--    </warez-3.1>-->
+<!--    <warez-3.2>-->
+<!--        <name>warez-3.2</name>-->
+<!--        <img>warez</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.e</dependency>-->
+<!--        <x>1800</x>-->
+<!--        <y>1850</y>-->
+<!--    </warez-3.2>-->
+<!--    <level-3.4>-->
+<!--        <name>3.4</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.3</dependency>-->
+<!--        <x>1200</x>-->
+<!--        <y>1400</y>-->
+<!--    </level-3.4>-->
+<!--    <level-3.5>-->
+<!--        <name>3.5</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.4</dependency>-->
+<!--        <x>900</x>-->
+<!--        <y>1500</y>-->
+<!--    </level-3.5>-->
+
+<!--    &lt;!&ndash; Section 4 &ndash;&gt;-->
+<!--    <llevel-4.1>-->
+<!--        <name>4.1</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>3.5</dependency>-->
+<!--        <x>600</x>-->
+<!--        <y>1500</y>-->
+<!--    </llevel-4.1>-->
+<!--    <level-4.2>-->
+<!--        <name>4.2</name>-->
+<!--        <img>default</img>-->
+<!--        <description>Easy peasy.</description>-->
+<!--        <dependency>4.1</dependency>-->
+<!--        <x>300</x>-->
+<!--        <y>1500</y>-->
+<!--    </level-4.2>-->
+
+</levels>

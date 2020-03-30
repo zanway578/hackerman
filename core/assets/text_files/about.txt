@@ -1,0 +1,11 @@
+About
+
+This game is basically just a giant meme mocking how terrible 2020 has been.
+
+It also gave me an excuse to record a soundtrack and learn Kotlin.
+
+This game was created using the LibGDX library inside Intellij IDEA. Kotlin was the development langage of choice.
+
+Have fun. May you enjoy the dank memes.
+
+*CLICK ANYWHERE TO GO BACK"
